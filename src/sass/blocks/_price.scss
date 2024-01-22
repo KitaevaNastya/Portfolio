@@ -12,7 +12,7 @@
         display: grid;
         grid-template: repeat(2, minmax(21px, auto)) / repeat(2, auto);
         padding-left: 23px;
-        
+        row-gap: 5px;
         &:before {
             content: '';
             position: absolute;
